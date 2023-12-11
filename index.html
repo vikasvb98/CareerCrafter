@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>CareerCrafter</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2 class="navbar-logo"><a href="">CareerCrafter</a></h2>
+      <div class="navbar-menu">
+        <a href="#jobs">Jobs</a>
+        <a href="#companies">Companies</a>
+        <a href="#testimonial">Testimonial</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#">Sign In </a>
+      </div>
+      <div class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <header>
+        <h1 class="header-title">
+            FIND YOUR <br> <span>DREAM JOB</span> <br> WITH CAREER <span>CRAFTER</span>
+        </h1>
+    </header>
+
+    <div class="search-wrapper"> 
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Job Title or Keywords">
+                <button class="search-button">Search</button>
+            </div>
+        </div> 
+    </div> 
+
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select name="filter-select" id="job-level" name="jov-level">
+                <option>Job Level</option>
+                <option>Entry</option>
+                <option>Mid-Senior</option>
+                <option>Senior</option>
+            </select>
+            <select name="filter-select" id="job-function" name="jov-function">
+                <option>Job Function</option>
+                <option>IT</option>
+                <option>Bussines Development</option>
+                <option>Management</option>
+            </select>
+            <select name="filter-select" id="employment" name="employment">
+                <option>Employment Type</option>
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full Time</option>
+            </select>
+            <select name="filter-select" id="location" name="location">
+                <option>Location</option>
+                <option>Remote</option>
+                <option>Noida</option>
+                <option>Gurugram</option>
+            </select>
+            <select name="filter-select" id="education" name="education">
+                <option>Education</option>
+                <option>High School</option>
+                <option>Bechelor's Degree</option>
+                <option>Master's Degree</option>
+            </select>
+        </div>
+        <div class="filter-chosen">
+            <div class="chosen-card">
+                Remote <i class = "fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Full time <i class = "fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Financial tech <i class = "fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Entry Level <i class = "fas fa-times-circle"></i>
+            </div>
+        </div>
+    </div>
+    <section class="job-list" id="Jobs">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/Accenture.png" alt="img">
+                <div class="job-detail">
+                    <h4>Accenture</h4>
+                    <h3>Software Engineer</h3>
+                    <p>Seeking a Software Engineer with expertise in C++ and strong proficiency in Data Structures and Algorithms, capable of designing, developing, and optimizing software solutions while collaborating effectively with cross-functional teams.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">C++</a>
+                <a class="label-b" href="#">DSA</a>
+                <a class="label-c" href="#">Oracle</a>
+            </div>
+            <div class="job-posted">
+                Posted 1 Hour ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/tesla.png" alt="img">
+                <div class="job-detail">
+                    <h4>Tesla</h4>
+                    <h3>Mechanical Engineer</h3>
+                    <p>Seeking a Mechanical Engineer with expertise in design, analysis, and manufacturing processes, capable of developing innovative solutions and collaborating effectively within a multidisciplinary engineering team</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">3D CAD</a>
+                <a class="label-b" href="#">CATIA</a>
+                <a class="label-c" href="#">GD&T</a>
+            </div>
+            <div class="job-posted">
+                Posted 1 Month ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/Unacademy-Symbol.png" alt="img">
+                <div class="job-detail">
+                    <h4>Unacademy</h4>
+                    <h3>Web Developer</h3>
+                    <p>Seeking a Web Developer with proficiency in front-end and back-end technologies, experienced in designing and implementing scalable web applications, and adept at collaborating within a dynamic development team.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JavaScript</a>
+            </div>
+            <div class="job-posted">
+                Posted a day ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/Byjus.png" alt="img">
+                <div class="job-detail">
+                    <h4>Byju's</h4>
+                    <h3>Bussines Development Associate</h3>
+                    <p>Seeking a Business Development Associate with a proven track record in identifying and cultivating business opportunities, strong interpersonal and communication skills, and the ability to contribute to strategic growth initiatives within a dynamic business environment.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">B2C Sales</a>
+                <a class="label-b" href="#">Ed-tech</a>
+                <a class="label-c" href="#">CRM</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 Days ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/YouTube.png" alt="img">
+                <div class="job-detail">
+                    <h4>You Tube</h4>
+                    <h3>React Developer Intern</h3>
+                    <p>Seeking a React Developer Intern with a passion for web development, familiarity with React.js, and a willingness to learn, collaborate, and contribute within an innovative software development team</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">React</a>
+                <a class="label-b" href="#">Redux</a>
+                <a class="label-c" href="#">JavaScript</a>
+            </div>
+            <div class="job-posted">
+                Posted 7 days ago
+            </div>
+        </div>
+        <button class="job-more">More List</button>
+    </section>
+  </body>
+</html>
